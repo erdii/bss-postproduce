@@ -6,6 +6,8 @@ const fs = require("fs");
 const async = require("async");
 const { exec } = require("child_process");
 
+console.log(process.argv);
+
 const exportPath = process.argv[2];
 const version = process.argv[3];
 
@@ -34,6 +36,8 @@ function minifyHTMLFile(filename, cb) {
 
 // kick off the minifier!
 glob(exportPath + "/**/*.html", function(err, files) {
+	console.log(files);
+
 	if (err != null) {
 		console.log("A globbing error occured:", err);
 		process.exit(1);
