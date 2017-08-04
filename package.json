@@ -1,6 +1,6 @@
 {
 	"name": "bss-postproduce",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "version style assets and minify html of an exported Bootstrap Studio project",
 	"main": "index.js",
 	"bin": {
