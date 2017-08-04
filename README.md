@@ -13,3 +13,5 @@ and replace `styles.min.css` with `styles.min.css?v=VERSION` where the VERSION i
 the files will be modified **in place**!
 
 #### so be careful please
+
+prepend `DEBUG=true` to `bss-postproduce ...` to enable debug output
