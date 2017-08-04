@@ -6,8 +6,8 @@ const fs = require("fs");
 const async = require("async");
 const { exec } = require("child_process");
 
-const exportPath = process.argv[1];
-const version = process.argv[2];
+const exportPath = process.argv[2];
+const version = process.argv[3];
 
 // html-minification
 function minifyHTMLFile(filename, cb) {
