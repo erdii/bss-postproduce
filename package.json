@@ -1,0 +1,26 @@
+{
+	"name": "bss-postproduce",
+	"version": "1.0.0",
+	"description": "version style assets and minify html of an exported Bootstrap Studio project",
+	"main": "index.js",
+	"bin": {
+		"bss-postproduce": "./index.js"
+	},
+	"scripts": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/erdii/bss-postproduce.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/erdii/bss-postproduce/issues"
+	},
+	"homepage": "https://github.com/erdii/bss-postproduce#readme",
+	"devDependencies": {
+		"async": "^2.5.0",
+		"glob": "^7.1.2",
+		"html-minifier": "^3.5.3"
+	}
+}

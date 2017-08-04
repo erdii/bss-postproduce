@@ -1,0 +1,8 @@
+/public
+
+# preprocessed assets
+/static/js/main.js
+/static/css/styles.css
+
+# dependencies
+/node_modules
