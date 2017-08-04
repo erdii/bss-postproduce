@@ -18,7 +18,7 @@
 		"url": "https://github.com/erdii/bss-postproduce/issues"
 	},
 	"homepage": "https://github.com/erdii/bss-postproduce#readme",
-	"devDependencies": {
+	"dependencies": {
 		"async": "^2.5.0",
 		"glob": "^7.1.2",
 		"html-minifier": "^3.5.3"
